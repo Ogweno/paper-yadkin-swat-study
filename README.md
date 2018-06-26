@@ -3,9 +3,9 @@ Data repository for paper titled: 'Assessment of Hydrologic Vulnerability to Urb
 
 ### DOI TAG HERE ###
 
-This README.md file was generated on 20170718 by Sheila Saia.
+This README.md file was generated on 20180625 by Sheila Saia.
 
-This GitHub repository was created to provide access to collected data, analysis code, and other information associated with the paper by Suttles et al. titled 'Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S.' in *Science of the Total Environment* (https://doi.org/10.1086/691439).
+This GitHub repository was created to provide access to collected data, analysis code, and other information associated with the paper by Suttles et al. titled 'Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S.' in *Science of the Total Environment* ([XXXX](XXXX)).
 
 ## General Information ##
 
@@ -25,7 +25,7 @@ Address: NC State University, Partners 2, 840 Main Campus Drive, Raleigh, NC 276
 Email: ksuttle at ncsu dot edu
 
 **Date of data collection**<br>
-SWAT model outputs were generated in XXXX. USFS landuse predictions were generated in 2015. All other data originated from publically available sites as described in the associated paper.
+SWAT model outputs were generated in XXXX. United States Forest Service landuse predictions were generated in 2015. All other data originated from publically available sites as described in the associated paper.
 
 **Geographic location of data collection**<br>
 All data is associated with the Upper Yadkin-Pee Dee Watershed in Western North Carolina, USA.
@@ -42,7 +42,7 @@ Please use and distribute according to CC-BY v4.0. For a human readible version 
 As of 20180625 there are no other publications that cite or use these data.
 
 **Links to other publicly accessible locations of the data**<br>
-This dataset and associated R code are available at https://github.com/sheilasaia/paper-yadkin-swat-study and via Zenodo (XXXX). The associated publication is available via *Science of the Total Environment* (XXXX).
+This dataset and associated R code are available at https://github.com/sheilasaia/paper-yadkin-swat-study and via Zenodo ([XXXX](XXXX)). The associated publication is available via *Science of the Total Environment* ([XXXX](XXXX)).
 
 **Links/relationships to ancillary data sets**<br>
 There are no links to or relationships with other ancillary data sets.
@@ -51,7 +51,7 @@ There are no links to or relationships with other ancillary data sets.
 Data was not derived from another source.
 
 **Recommended citation for the data**<br>
-Suttles, K.M., N. K. Singh, J.M. Vose, K.L. Martin, R.E. Emanuel, J.W. Coulston, S.M. Saia, and M.T. Crump. Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S. *Science of the Total Environment*. Accepted.
+Suttles, K.M., N. K. Singh, J.M. Vose, K.L. Martin, R.E. Emanuel, J.W. Coulston, S.M. Saia, and M.T. Crump. 2018. Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S. *Science of the Total Environment*. XX(XX):XX-XX.
 
 **Paper Availability**<br>
 The paper is available at XXXX. Please contact Kelly Suttles directly for a copy of the pre-print, if you do not have a subscription to the journal. 
