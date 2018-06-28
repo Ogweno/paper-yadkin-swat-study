@@ -12,31 +12,31 @@ This GitHub repository was created to provide access to collected data, analysis
 **Title of Dataset**<br>
 "paper-yadkin-swat-study"
 
-**Dataset Contact Information**<br>
-Name: Sheila Saia
-Institution: United States Forest Service, Center for Integrated Forest Science
-Address: NC State University, Partners 2, 840 Main Campus Drive, Raleigh, NC 27606
+**Dataset & Repo Contact Information**<br>
+Name: Sheila Saia<br>
+Institution: United States Forest Service, Center for Integrated Forest Science<br>
+Address: NC State University, Partners 2, 840 Main Campus Drive, Raleigh, NC 27606<br>
 Email: ssaia at ncsu dot edu
 
-**Contact Information**<br>
-Name: Kelly Suttles
-Institution: United States Forest Service, Center for Integrated Forest Science
-Address: NC State University, Partners 2, 840 Main Campus Drive, Raleigh, NC 27606
+**Study Contact Information**<br>
+Name: Kelly Suttles<br>
+Institution: United States Forest Service, Center for Integrated Forest Science<br>
+Address: NC State University, Partners 2, 840 Main Campus Drive, Raleigh, NC 27606<br>
 Email: ksuttle at ncsu dot edu
 
 **Date of data collection**<br>
-SWAT model outputs were generated in XXXX. United States Forest Service landuse predictions were generated in 2015. All other data originated from publically available sites as described in the associated paper.
+SWAT model outputs were generated in 2016. United States Forest Service landuse predictions were generated in 2015. All other data originated from publically available sites as described in the associated paper.
 
 **Geographic location of data collection**<br>
 All data is associated with the Upper Yadkin-Pee Dee Watershed in Western North Carolina, USA.
 
 **Information about funding sources that supported the collection of the data**<br>
-Kelly Suttles and Sheila Saia were supported by funding through Oak Ridge Institute for Science and Education (ORISE).
+Kelly Suttles and Sheila Saia were supported by funding through the Oak Ridge Institute for Science and Education (ORISE).
 
 ## Sharing & Access Information ##
 
 **Licenses/restrictions placed on the data**<br>
-Please use and distribute according to CC-BY v4.0. For a human readible version of this license visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/) .
+Please use and distribute according to CC-BY v4.0. For a human readible version of this license visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 **Links to publications that cite or use the data**<br>
 As of 20180625 there are no other publications that cite or use these data.
@@ -54,9 +54,11 @@ Data was not derived from another source.
 Suttles, K.M., N. K. Singh, J.M. Vose, K.L. Martin, R.E. Emanuel, J.W. Coulston, S.M. Saia, and M.T. Crump. 2018. Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S. *Science of the Total Environment*. XX(XX):XX-XX.
 
 **Paper Availability**<br>
-The paper is available at XXXX. Please contact Kelly Suttles directly for a copy of the pre-print, if you do not have a subscription to the journal. 
+The paper is available online at [XXXX](XXXX). If you do not have a subscription to the journal, please contact Kelly Suttles directly for a copy of the pre-print. 
 
 ## Data & File Overview ##
+
+[some general description here, say something about how we don't provide swat v? setup files and they can be generated using the data provided here if you still need them please contact kelly if you want those]
 
 **File List**<br>
 Filename: XXXX <br>
@@ -93,10 +95,7 @@ See the associated *Science of the Total Environment* journal article for a full
 See the R scripts in this repository as well as the associated *Science of the Total Environment* journal article for a full description of the methods used to collect and analyze these data.
 
 **Instrument- or software-specific information needed to interpret the data:**<br>
-The latest version of the R programming lanugage is required to run the R scripts in this repository. R can be downloaded  for free here: [https://www.r-project.org/](https://www.r-project.org/). Microsoft Excel is required to open .xlsx files. 
-
-Matlab XXXX
-ArcGIS and SWAT XXXX
+R (open-source, [https://www.r-project.org/](https://www.r-project.org/)) is needed to run .R files, Microsoft Excel (license required, [https://products.office.com/en-us/excel](https://products.office.com/en-us/excel)) is needed to open .xlsx files, and Matlab (license required, [https://www.mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html)) is needed to open .m files. Land use and land cover data can be opened using ArcGIS (license required, [desktop.arcgis.com/en/](desktop.arcgis.com/en/)) or QGIS (open-source, [https://qgis.org/en/site/](https://qgis.org/en/site/)).
 
 **Standards and calibration information, if appropriate:**<br>
 Information on calibrations are included in the 'Raw Data' section of this README file.
