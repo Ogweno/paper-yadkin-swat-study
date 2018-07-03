@@ -3,7 +3,7 @@ Data repository for paper titled: 'Assessment of Hydrologic Vulnerability to Urb
 
 ### DOI TAG HERE ###
 
-This README.md file was generated on 20180625 by Sheila Saia.
+This README.md file was generated on 20180703 by Sheila Saia.
 
 This GitHub repository was created to provide access to collected data, analysis code, and other information associated with the paper by Suttles et al. titled 'Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S.' in *Science of the Total Environment* ([XXXX](XXXX)).
 
@@ -39,52 +39,94 @@ Kelly Suttles and Sheila Saia were supported by funding through the Oak Ridge In
 Please use and distribute according to CC-BY v4.0. For a human readible version of this license visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 **Links to publications that cite or use the data**<br>
-As of 20180625 there are no other publications that cite or use these data.
+SWAT simulated streamflow data was also used by [Saia et al. (XXXX)](XXXX).
 
 **Links to other publicly accessible locations of the data**<br>
 This dataset and associated R code are available at https://github.com/sheilasaia/paper-yadkin-swat-study and via Zenodo ([XXXX](XXXX)). The associated publication is available via *Science of the Total Environment* ([XXXX](XXXX)).
 
 **Links/relationships to ancillary data sets**<br>
-There are no links to or relationships with other ancillary data sets.
+All links to publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, there is data is also linked to the study dataset explained in [Saia et al. (XXXX)](XXXX).
 
 **Data derived from another source**<br>
-Data was not derived from another source.
+All links to publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, this is the only source of these data.
+
+**Additional related data collected that was not included in the current data package:**<br>
+This directory does not include publically available soils, digital elevation data, and reservoir data required to run SWAT. For more information on these data see Suttles et al. (2018) or contact Kelly Suttles directly.
+
+**Are there multiple versions of the dataset?**<br>
+All publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, there are no other versions available online.
 
 **Recommended citation for the data**<br>
 Suttles, K.M., N. K. Singh, J.M. Vose, K.L. Martin, R.E. Emanuel, J.W. Coulston, S.M. Saia, and M.T. Crump. 2018. Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S. *Science of the Total Environment*. XX(XX):XX-XX.
 
 **Paper Availability**<br>
-The paper is available online at [XXXX](XXXX). If you do not have a subscription to the journal, please contact Kelly Suttles directly for a copy of the pre-print. 
+The paper is available online at via [*Science of the Total Environment*](XXXX) and [*Treesearch*](XXXX). If you do not have a subscription to the journal or are having trouble accessing it, please contact Kelly Suttles directly for a copy of the pre-print.
 
 ## Data & File Overview ##
+This repository is organized into three main directories: observed_data, simulated_data, and analysis_scripts.
 
-[some general description here, say something about how we don't provide swat v? setup files and they can be generated using the data provided here if you still need them please contact kelly if you want those]
+###observed\_data directory ###
+The observed\_data directory contains all historic observed climate, land cover, and streamflow data used in this study that required pre-processing or were needed for analysis. These data were all collected from public databases as explained by Suttles et al. (2018) but are included for convenience. The observed\_data directory includes three subdirectories: climate, landcover_1992, and streamflow.
+
+####climate subdirectory####
+Directory name: climate <br>
+Short description: This subdirectory contains the observed climate data text files required to run SWAT for the 1979-2008 period. It also includes the .shp file (within the climate\_stations\_shp directory) to display each climate station spatially. [include details on sim_baseline_pcp.xlsx and swat_precip_summary_outlet_1982-2002.xlsx files] See README file inside this subdirectory for further details on its contents.
 
 **File List**<br>
-Filename: XXXX <br>
+Filename: \*.txt files <br>
+Short description: These text files include observed daily precipitation, temperature, solar radiation, relative humidity, and wind speed for the study watershed. These data are all formatted based on SWAT requirements. See README file inside this subdirectory for further details on its contents.<br>
+
+Filename: sim\_baseline\_pcp.xlsx <br>
 Short description: This text file includes XXXX <br>
 
-etc.
+Filename: swat\_precip\_summary\_outlet\_1982-2002.xlsx <br>
+Short description: This text file includes XXXX <br>
+
+Filename: swat\_precip\_summary\_outlet\_1982-2002.xlsx <br>
+Short description: This text file includes XXXX <br>
 
 **Relationship Between Files**<br>
-The text files listed above  are all required for running the R script called .
-
-
+The text files listed above are all required for XXXX.
 
 **Raw Data**<br>
-This repository also contains the raw data that was compiled into the files listed above. Raw data can be found in the directory called raw\_data. Sub-directories within this main directory include:<br>
+This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
 
-Directory name: XXXX <br>
-Short description: This directory contains XXXX. Methods are described in the associated *Science of the Total Environment* journal article.<br>
+####landcover subdirectory####
+Directory name: landcover\_1992 <br>
+Short description: This subdirectory contains the observed landcover data text files required to run SWAT for the 1979-2008 period. [add more detail about subsubdirectories]
 
-etc
+**File List**<br>
+Filename: LC9276457208.tif files <br>
+Short description: [add description here] <br>
 
+Filename: [projected] <br>
+Short description: [add description here] <br>
 
-**Additional related data collected that was not included in the current data package:**<br>
-All data is included in this package.
+**Relationship Between Files**<br>
+The text files listed above are all required for XXXX.
 
-**Are there multiple versions of the dataset?**<br>
-No there are no other versions of these data available online.
+**Raw Data**<br>
+This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
+
+####streamflow subdirectory####
+Directory name: streamflow <br>
+Short description: This subdirectory contains the observed daily streamflow data for three USGS gages used in this study: (1) Yadkin River in Enon, NC (USGS gage #02115360), (2) Yadkin River at Yadkin College (USGS gage #02116500), and (3) Pee Dee River (USGS gage #02129000). [add more detail about subsubdirectories, do we need a readme in the folder too?]
+
+**File List**<br>
+Filename: USGS_02115360_yadkin_enon.xlsx files <br>
+Short description: [add description here] <br>
+
+Filename: USGS_02116500_yadkin_college.xlsx <br>
+Short description: [add description here] <br>
+
+Filename: USGS_02129000_pee_dee.xlsx <br>
+Short description: [add description here] <br>
+
+**Relationship Between Files**<br>
+The text files listed above are all required for XXXX.
+
+**Raw Data**<br>
+This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
 
 ## Methodological Information ##
 
@@ -95,7 +137,7 @@ See the associated *Science of the Total Environment* journal article for a full
 See the R scripts in this repository as well as the associated *Science of the Total Environment* journal article for a full description of the methods used to collect and analyze these data.
 
 **Instrument- or software-specific information needed to interpret the data:**<br>
-R (open-source, [https://www.r-project.org/](https://www.r-project.org/)) is needed to run .R files, Microsoft Excel (license required, [https://products.office.com/en-us/excel](https://products.office.com/en-us/excel)) is needed to open .xlsx files, and Matlab (license required, [https://www.mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html)) is needed to open .m files. Land use and land cover data can be opened using ArcGIS (license required, [desktop.arcgis.com/en/](desktop.arcgis.com/en/)) or QGIS (open-source, [https://qgis.org/en/site/](https://qgis.org/en/site/)).
+R (open-source, [https://www.r-project.org/](https://www.r-project.org/)) is needed to run .R files, Microsoft Excel (license required, [https://products.office.com/en-us/excel](https://products.office.com/en-us/excel)) is needed to open .xlsx files, and Matlab (license required, [https://www.mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html)) is needed to run .m files. Land use and land cover data can be opened using ArcGIS (license required, [desktop.arcgis.com/en/](desktop.arcgis.com/en/)) or QGIS (open-source, [https://qgis.org/en/site/](https://qgis.org/en/site/)).
 
 **Standards and calibration information, if appropriate:**<br>
 Information on calibrations are included in the 'Raw Data' section of this README file.
