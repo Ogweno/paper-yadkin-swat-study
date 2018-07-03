@@ -63,18 +63,14 @@ Suttles, K.M., N. K. Singh, J.M. Vose, K.L. Martin, R.E. Emanuel, J.W. Coulston,
 The paper is available online at via [*Science of the Total Environment*](XXXX) and [*Treesearch*](XXXX). If you do not have a subscription to the journal or are having trouble accessing it, please contact Kelly Suttles directly for a copy of the pre-print.
 
 ## Data & File Overview ##
-This repository is organized into three main directories: observed_data, simulated_data, and analysis_scripts.
+This repository is organized into three main directories: observed\_data, simulated\_data, and analysis\_scripts.
 
-<<<<<<< HEAD
 ### observed\_data directory ###
-=======
-### observed_data directory ###
->>>>>>> c10ed2501814fb6bcc26070da27b45f0fdcc05ce
-The observed\_data directory contains all historic observed climate, land cover, and streamflow data used in this study that required pre-processing or were needed for analysis. These data were all collected from public databases as explained by Suttles et al. (2018) but are included for convenience. The observed\_data directory includes three subdirectories: climate, landcover_1992, and streamflow.
+The observed\_data directory contains all historic observed climate, land cover, and streamflow data used in this study that required pre-processing or were needed for analysis. These data were all collected from public databases as explained by Suttles et al. (2018) but are included for convenience. The observed\_data directory includes three subdirectories: climate, landcover\_1992, and streamflow.
 
 #### climate subdirectory ####
 Directory name: climate <br>
-Short description: This subdirectory contains the observed climate data text files required to run SWAT for the 1979-2008 period. It also includes the .shp file (within the climate\_stations\_shp directory) to display each climate station spatially. [include details on sim_baseline_pcp.xlsx and swat_precip_summary_outlet_1982-2002.xlsx files] See README file inside this subdirectory for further details on its contents.
+Short description: This subdirectory contains the observed climate data text files required to run SWAT for the 1979-2008 period. It also includes the .shp file (within the climate\_stations\_shp directory) to display each climate station spatially. [include details on sim\_baseline\_pcp.xlsx and swat\_precip\_summary\_outlet\_1982-2002.xlsx files] See README file inside this subdirectory for further details on its contents.
 
 **File List**<br>
 Filename: \*.txt files <br>
@@ -117,13 +113,13 @@ Directory name: streamflow <br>
 Short description: This subdirectory contains the observed daily streamflow data for three USGS gages used in this study: (1) Yadkin River in Enon, NC (USGS gage #02115360), (2) Yadkin River at Yadkin College (USGS gage #02116500), and (3) Pee Dee River (USGS gage #02129000). [add more detail about subsubdirectories, do we need a readme in the folder too?]
 
 **File List**<br>
-Filename: USGS_02115360_yadkin_enon.xlsx files <br>
+Filename: USGS\_02115360\_yadkin\_enon.xlsx files <br>
 Short description: [add description here] <br>
 
-Filename: USGS_02116500_yadkin_college.xlsx <br>
+Filename: USGS\_02116500\_yadkin\_college.xlsx <br>
 Short description: [add description here] <br>
 
-Filename: USGS_02129000_pee_dee.xlsx <br>
+Filename: USGS\_02129000\_pee\_dee.xlsx <br>
 Short description: [add description here] <br>
 
 **Relationship Between Files**<br>
