@@ -65,10 +65,10 @@ The paper is available online at via [*Science of the Total Environment*](XXXX) 
 ## Data & File Overview ##
 This repository is organized into three main directories: observed_data, simulated_data, and analysis_scripts.
 
-###observed\_data directory ###
+### observed\_data directory ###
 The observed\_data directory contains all historic observed climate, land cover, and streamflow data used in this study that required pre-processing or were needed for analysis. These data were all collected from public databases as explained by Suttles et al. (2018) but are included for convenience. The observed\_data directory includes three subdirectories: climate, landcover_1992, and streamflow.
 
-####climate subdirectory####
+#### climate subdirectory ####
 Directory name: climate <br>
 Short description: This subdirectory contains the observed climate data text files required to run SWAT for the 1979-2008 period. It also includes the .shp file (within the climate\_stations\_shp directory) to display each climate station spatially. [include details on sim_baseline_pcp.xlsx and swat_precip_summary_outlet_1982-2002.xlsx files] See README file inside this subdirectory for further details on its contents.
 
@@ -91,7 +91,7 @@ The text files listed above are all required for XXXX.
 **Raw Data**<br>
 This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
 
-####landcover subdirectory####
+#### landcover subdirectory ####
 Directory name: landcover\_1992 <br>
 Short description: This subdirectory contains the observed landcover data text files required to run SWAT for the 1979-2008 period. [add more detail about subsubdirectories]
 
@@ -108,7 +108,7 @@ The text files listed above are all required for XXXX.
 **Raw Data**<br>
 This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
 
-####streamflow subdirectory####
+#### streamflow subdirectory ####
 Directory name: streamflow <br>
 Short description: This subdirectory contains the observed daily streamflow data for three USGS gages used in this study: (1) Yadkin River in Enon, NC (USGS gage #02115360), (2) Yadkin River at Yadkin College (USGS gage #02116500), and (3) Pee Dee River (USGS gage #02129000). [add more detail about subsubdirectories, do we need a readme in the folder too?]
 
