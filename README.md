@@ -50,7 +50,7 @@ All links to publically available data is described here and in Suttles et al. (
 **Data derived from another source**<br>
 All links to publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, this is the only source of these data.
 
-**Additional related data collected that was not included in the current data package:**<br>
+**Additional related data collected that was not included in the current data package**<br>
 This directory does not include publically available soils, digital elevation data, and reservoir data required to run SWAT. For more information on these data see Suttles et al. (2018) or contact Kelly Suttles directly.
 
 **Are there multiple versions of the dataset?**<br>
@@ -65,7 +65,11 @@ The paper is available online at via [*Science of the Total Environment*](XXXX) 
 ## Data & File Overview ##
 This repository is organized into three main directories: observed_data, simulated_data, and analysis_scripts.
 
+<<<<<<< HEAD
 ### observed\_data directory ###
+=======
+### observed_data directory ###
+>>>>>>> c10ed2501814fb6bcc26070da27b45f0fdcc05ce
 The observed\_data directory contains all historic observed climate, land cover, and streamflow data used in this study that required pre-processing or were needed for analysis. These data were all collected from public databases as explained by Suttles et al. (2018) but are included for convenience. The observed\_data directory includes three subdirectories: climate, landcover_1992, and streamflow.
 
 #### climate subdirectory ####
