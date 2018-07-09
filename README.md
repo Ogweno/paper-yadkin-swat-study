@@ -65,68 +65,124 @@ The paper is available online at via [*Science of the Total Environment*](XXXX) 
 ## Data & File Overview ##
 This repository is organized into three main directories: observed\_data, simulated\_data, and analysis\_scripts.
 
-### observed\_data directory ###
+### 1. observed\_data directory ###
 The observed\_data directory contains all historic observed climate, land cover, and streamflow data used in this study that required pre-processing or were needed for analysis. These data were all collected from public databases as explained by Suttles et al. (2018) but are included for convenience. The observed\_data directory includes three subdirectories: climate, landcover\_1992, and streamflow.
 
-#### climate subdirectory ####
+#### 1.1 climate subdirectory ####
 Directory name: climate <br>
-Short description: This subdirectory contains the observed climate data text files required to run SWAT for the 1979-2008 period. It also includes the .shp file (within the climate\_stations\_shp directory) to display each climate station spatially. [include details on sim\_baseline\_pcp.xlsx and swat\_precip\_summary\_outlet\_1982-2002.xlsx files] See README file inside this subdirectory for further details on its contents.
+Short description: This subdirectory contains the observed climate data text files required to run SWAT for the 1979-2008 period. It also includes associated .shp files (within the climate\_stations\_shp directory) to display each climate station spatially. [include details on sim\_baseline\_pcp.xlsx and swat\_precip\_summary\_outlet\_1982-2002.xlsx files] See README file inside this subdirectory for further details on its contents.
 
 **File List**<br>
 Filename: \*.txt files <br>
-Short description: These text files include observed daily precipitation, temperature, solar radiation, relative humidity, and wind speed for the study watershed. These data are all formatted based on SWAT requirements. See README file inside this subdirectory for further details on its contents.<br>
+Short description: These text files include observed daily precipitation, temperature, solar radiation, relative humidity, and wind speed for the study watershed. These data are all formatted based on SWAT requirements. See README file inside this subdirectory for further details on each the naming scheme and contents of each text file.<br>
+
+Filename: swat\_precip\_summary\_outlet\_1982-2002.xlsx <br>
+Short description: This text file includes daily precipitation (mm) from station p351-800, which is the station closest to the watershed outlet (reach number 28) from January 1, 1982 to December 31, 2002.<br>
+
+Filename: climate\_stations\_shp.xlsx <br>
+Short description: This directory includes files associated with the spatial distribution of the 20 climate stations within the watershed. <br>
 
 Filename: sim\_baseline\_pcp.xlsx <br>
-Short description: This text file includes XXXX <br>
-
-Filename: swat\_precip\_summary\_outlet\_1982-2002.xlsx <br>
-Short description: This text file includes XXXX <br>
-
-Filename: swat\_precip\_summary\_outlet\_1982-2002.xlsx <br>
-Short description: This text file includes XXXX <br>
+Short description: This text file includes XXXX [can we delete this?] <br>
 
 **Relationship Between Files**<br>
 The text files listed above are all required for XXXX.
 
 **Raw Data**<br>
-This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
+This repository does not contain any raw data as everything in this subdirectory was automatically formatted for use with SWAT when it was downloaded from publically available sites.<br>
 
-#### landcover\_1992 subdirectory ####
+#### 1.2 landcover\_1992 subdirectory ####
 Directory name: landcover\_1992 <br>
-Short description: This subdirectory contains the observed landcover data text files required to run SWAT for the 1979-2008 period. [add more detail about subsubdirectories]
+Short description: This subdirectory contains the observed landcover data text files required to run SWAT for the 1979-2008 period. It includes the nlcd\_1992\_raw and nlcd\_1992\_projected directories which include all files needed to open associated raw and projected 1992 land cover data, respectively.
 
 **File List**<br>
 Filename: LC9276457208.tif files <br>
-Short description: [add description here] <br>
+Short description: Within the nlcd\_1992\_raw, this file represents the raw (unprojected) 1992 National Land Cover Dataset (NLCD) data as described in the README within this folder. [add description here] <br>
 
 Filename: [projected] <br>
-Short description: [add description here] <br>
+Short description: Within the nlcd\_1992\_projected, this file represents the projected [what projection?] 1992 National Land Cover Dataset (NLCD) data described in the README within this folder.[add description here] <br>
 
 **Relationship Between Files**<br>
-The text files listed above are all required for XXXX.
+The files in the nlcd\_1992\_projected subdirectory are the projected version of the files in the nlcd\_1992\_raw folder.
 
 **Raw Data**<br>
-This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
+Raw 1992 NLCD data can be found in the nlcd\_1992\_raw subdirectory.
 
-#### streamflow subdirectory ####
+#### 1.3 streamflow subdirectory ####
 Directory name: streamflow <br>
-Short description: This subdirectory contains the observed daily streamflow data for three USGS gages used in this study: (1) Yadkin River in Enon, NC (USGS gage #02115360), (2) Yadkin River at Yadkin College (USGS gage #02116500), and (3) Pee Dee River (USGS gage #02129000). [add more detail about subsubdirectories, do we need a readme in the folder too?]
+Short description: This subdirectory contains the observed daily streamflow data for three USGS gages used in this study: (1) Yadkin River in Enon, NC (USGS gage #02115360), (2) Yadkin River at Yadkin College (USGS gage #02116500), and (3) Pee Dee River (USGS gage #02129000). Raw data for these three USGS gages is stored in the raw directory and a column converting these data from cfs to cms is added to files in the cms\_conversions directory.
 
-**File List**<br>
-Filename: USGS\_02115360\_yadkin\_enon.xlsx files <br>
-Short description: [add description here] <br>
+**raw Directory File List**<br>
+Filename: USGS\_02115360\_yadkin\_enon_raw.xlsx <br>
+Short description: Daily streamflow in cfs units for the USGS Yadkin River at Enon, NC station. See README within the main streamflow directory for information on the source of these data and the header of the file for metadata.<br>
+
+Filename: USGS\_02116500\_yadkin\_college_raw.xlsx <br>
+Short description: Daily streamflow in cfs units for the USGS Yadkin River at Yadkin College station. See README within the main streamflow directory for information on the source of these data and the header of the file for metadata.<br>
+
+Filename: USGS\_02129000\_pee\_dee_raw.xlsx <br>
+Short description: Daily streamflow in cfs units for the USGS Pee Dee River station. See README within the main streamflow directory for information on the source of these data and the header of the file for metadata.<br>
+
+**cms\_conversions Directory File List**<br>
+Filename: USGS\_02115360\_yadkin\_enon.xlsx <br>
+Short description: Originates from the USGS\_02115360\_yadkin\_enon_raw.xlsx file but has an extra column for flow in cms units.<br>
 
 Filename: USGS\_02116500\_yadkin\_college.xlsx <br>
-Short description: [add description here] <br>
+Short description: Originates from the USGS\_02116500\_yadkin\_college_raw.xlsx file but has an extra column for flow in cms units.<br>
 
 Filename: USGS\_02129000\_pee\_dee.xlsx <br>
-Short description: [add description here] <br>
+Short description: Originates from the USGS\_02129000\_yadkin\_pee\_dee_raw.xlsx file but has an extra column for flow in cms units. <br>
 
 **Relationship Between Files**<br>
-The text files listed above are all required for XXXX.
+The files in the cms_conversion subdirectory originate from files with a similar name in the raw subdirectory.
 
 **Raw Data**<br>
-This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
+All raw streamflow data can be found in the raw subdirectory.<br>
+
+
+
+### 2. simulated\_data directory ###
+The simulated\_data directory contains...
+
+#### 2.1 climate subdirectory ####
+Directory name: climate <br>
+Short description:
+
+
+
+#### 2.2 landuse\_2060 subdirectory ####
+Directory name: climate <br>
+Short description:
+
+
+
+#### 2.3 swat\_outputs subdirectory ####
+Directory name: climate <br>
+Short description:
+
+
+
+
+### 3. analysis\_scripts directory ###
+The analysis\_scripts directory contains...
+
+#### 3.1 matlab\_scripts subdirectory ####
+Directory name: climate <br>
+Short description:
+
+
+#### 3.2 r\_scripts subdirectory ####
+Directory name: climate <br>
+Short description:
+
+
+#### 3.3 summary\_data\_and\_performance\_metrics subdirectory ####
+Directory name: climate <br>
+Short description:
+
+
+
+
+
 
 ## Methodological Information ##
 
@@ -152,11 +208,14 @@ See the associated *Science of the Total Environment* journal article for a full
 **People involved with sample collection, processing, analysis and/or submission:**<br>
 See the associated *Science of the Total Environment* journal article for a full description of author contributions and acknowledgments.
 
-## Data-Specific Information For: XXXX.txt ##
+## Data-Specific Information For: swat\_precip\_summary\_outlet\_1982-2002.xlsx ##
 
 **Variable list**<br>
-'HoursFromStart' - Hours from start of experiment.<br>
+'RCH' - Reach number. Reach 28 is the outlet of the watershed. <br>
+'MO' - Month <br>
+'DA' - Day <br>
+'YR' - Year <br>
+'PRECIPmm' - Precipitation in mm.
 
 **Missing data codes**<br>
-NA - Data was below detection limit of machine.
-
+No missing data codes.
