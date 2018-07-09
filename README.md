@@ -91,7 +91,7 @@ The text files listed above are all required for XXXX.
 **Raw Data**<br>
 This repository does not contain any raw data as everything was automatically formatted for use with SWAT.<br>
 
-#### landcover subdirectory ####
+#### landcover\_1992 subdirectory ####
 Directory name: landcover\_1992 <br>
 Short description: This subdirectory contains the observed landcover data text files required to run SWAT for the 1979-2008 period. [add more detail about subsubdirectories]
 
