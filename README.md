@@ -1,7 +1,7 @@
 # paper-yadkin-swat-study
 Data repository for paper titled: 'Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S.'
 
-### DOI TAG HERE ###
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1312628.svg)](https://doi.org/10.5281/zenodo.1312628)
 
 This README.md file was generated on 20180703 by Sheila Saia.
 
