@@ -1,8 +1,8 @@
-#runoff ratio analysis README#
+# runoff\_ratio\_calculations README #
 
-####Last updated: 20180713####
+#### Last updated: 20180713 ####
 
-Annual Runoff Ratio calculations
+**Annual Runoff Ratio calculations**
 
 There are two folders in this directory: RR_8_10 and RR_18_28 that refer to subbasins 8 and 10 (Muddy Creek and S. Yadkin River) and subbasins 18 and 28 (Uwharrie River and Yadkin River), which were each processed at the same time.  However, the two sets of code do essentially the same thing and could be combined to process all the data at once.
 

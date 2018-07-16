@@ -1,9 +1,8 @@
-#runoff ratio analysis README#
+# flow\_duration\_curve\_calculations README #
 
-####Last updated: 20180713####
+#### Last updated: 20180713 ####
 
-Flow Duration Curves
-Uploaded from C:\Matlab\Analysis\DailyMeanQ
+**Flow Duration Curves**
 
 There are two folders in this directory: FDC_8_10 and FDC_18_28 that refer to subbasins 8 and 10 (Muddy Creek and S. Yadkin River) and subbasins 18 and 28 (Uwharrie River and Yadkin River), which were each processed at the same time.  However, the two sets of code do essentially the same thing and could be combined to process all the data at once.
 
