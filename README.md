@@ -5,7 +5,7 @@ Data repository for paper titled: 'Assessment of Hydrologic Vulnerability to Urb
 
 This README.md file was generated on 20180703 by Sheila Saia.
 
-This GitHub repository was created to provide access to collected data, analysis code, and other information associated with the paper by Suttles et al. titled 'Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S.' in *Science of the Total Environment* ([XXXX](XXXX)).
+This GitHub repository was created to provide access to collected data, analysis code, and other information associated with the paper by Suttles et al. titled 'Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S.' in *Science of the Total Environment* ([https://doi.org/10.1016/j.scitotenv.2018.06.287](https://doi.org/10.1016/j.scitotenv.2018.06.287)).
 
 ## General Information ##
 
@@ -42,7 +42,7 @@ Please use and distribute according to CC-BY v4.0. For a human readible version 
 SWAT simulated streamflow data was also used by [Saia et al. (XXXX)](XXXX).
 
 **Links to other publicly accessible locations of the data**<br>
-This dataset and associated R code are available at https://github.com/sheilasaia/paper-yadkin-swat-study and via Zenodo ([XXXX](XXXX)). The associated publication is available via *Science of the Total Environment* ([XXXX](XXXX)).
+This dataset and associated R code are available at https://github.com/sheilasaia/paper-yadkin-swat-study and via Zenodo ([https://zenodo.org/record/1312628](https://zenodo.org/record/1312628)). The associated publication is available via *Science of the Total Environment* ([https://doi.org/10.1016/j.scitotenv.2018.06.287](https://doi.org/10.1016/j.scitotenv.2018.06.287)).
 
 **Links/relationships to ancillary data sets**<br>
 All links to publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, there is data is also linked to the study dataset explained in [Saia et al. (XXXX)](XXXX).
@@ -57,10 +57,10 @@ This directory does not include publically available soils, digital elevation da
 All publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, there are no other versions available online.
 
 **Recommended citation for the data**<br>
-Suttles, K.M., N. K. Singh, J.M. Vose, K.L. Martin, R.E. Emanuel, J.W. Coulston, S.M. Saia, and M.T. Crump. 2018. Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S. *Science of the Total Environment*. XX(XX):XX-XX.
+Suttles, K.M., N. K. Singh, J.M. Vose, K.L. Martin, R.E. Emanuel, J.W. Coulston, S.M. Saia, and M.T. Crump. 2018. Assessment of Hydrologic Vulnerability to Urbanization and Climate Change in a Rapidly Changing Watershed in the Southeast U.S. *Science of the Total Environment*. 645:806-816.
 
 **Paper Availability**<br>
-The paper is available online at via [*Science of the Total Environment*](XXXX) and [*Treesearch*](XXXX). If you do not have a subscription to the journal or are having trouble accessing it, please contact Kelly Suttles directly for a copy of the pre-print.
+The paper is available online at via [*Science of the Total Environment*](https://doi.org/10.1016/j.scitotenv.2018.06.287) and [*Treesearch*](https://www.fs.usda.gov/treesearch/pubs/56780). If you do not have a subscription to the journal or are having trouble accessing it, please contact Sheila Saia or Kelly Suttles directly for a copy of the pre-print.
 
 ## Data & File Overview ##
 This repository is organized into three main directories: observed\_data, simulated\_data, and analysis\_scripts.
