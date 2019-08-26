@@ -39,13 +39,13 @@ Kelly Suttles and Sheila Saia were supported by funding through the Oak Ridge In
 Please use and distribute according to CC-BY v4.0. For a human readible version of this license visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 **Links to publications that cite or use the data**<br>
-SWAT simulated streamflow data was also used by [Saia et al. (XXXX)](XXXX).
+SWAT simulated streamflow data was also used by [Saia et al. (2019)](https://link.springer.com/article/10.1007/s10021-019-00387-5).
 
 **Links to other publicly accessible locations of the data**<br>
 This dataset and associated R code are available at https://github.com/sheilasaia/paper-yadkin-swat-study and via Zenodo ([https://zenodo.org/record/1312628](https://zenodo.org/record/1312628)). The associated publication is available via *Science of the Total Environment* ([https://doi.org/10.1016/j.scitotenv.2018.06.287](https://doi.org/10.1016/j.scitotenv.2018.06.287)).
 
 **Links/relationships to ancillary data sets**<br>
-All links to publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, there is data is also linked to the study dataset explained in [Saia et al. (XXXX)](XXXX).
+All links to publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, there is data is also linked to the study dataset explained in [Saia et al. (2019)](https://link.springer.com/article/10.1007/s10021-019-00387-5).
 
 **Data derived from another source**<br>
 All links to publically available data is described here and in Suttles et al. (2018). With respect to simulated data and data analysis scripts, this is the only source of these data.
